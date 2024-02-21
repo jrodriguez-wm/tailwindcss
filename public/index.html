@@ -10,27 +10,54 @@
     
     <title>Platzi Travel --</title>
 </head>
-<body>
+<body class="font-Montserrat">
     <nav></nav>
     <div id="tabBar"></div>
     <section class="w-full h-screen">
         <dv id="home">
             <div class="w-full h-3/4">
                 <div class="w-full h-full flex flex-col absolute space-y-96 py-4 items-center ">
-                    <input class="outline-none p-3 rounded-full shadow-sm" placeholder="San Francisco" type="search" name="" id="" >
-                    <button class="text-xl text-principal font-semibold p-4 bg-white w-36 rounded-full shadow-sm">Explorar</button>
+                    <input class="outline-none p-3 rounded-full shadow-sm transition duration-300 focus-within:shadow-sm focus:ring-2 focus:w-11/12" placeholder="San Francisco" type="search" name="" id="" >
+                    <button class="text-lg text-principal font-semibold p-4 bg-white w-48 rounded-full shadow-sm  transition-all duration-500 ease-in-out hover:bg-primary hover:text-white transform hover:-translate-y-1 hover:scale-110">Explorar</button>
                 </div>
                 <div class="w-full h-full">
                     <img src="./img/sanFrancisco.jpg" alt="">
                 </div>                
             </div>
         </dv>
-        <div class="p-20" id="recomendadas">
-            <div class="w-48 h-64 shadow-2xl rounded-lg  ">
-                <div class="w-full h-3/5 bg-cover bg-norway rounded-t-lg"></div>
-                <div class="w-full h-2/5 bg-secondary rounded-b-lg">
-                    <p class="text-white font-bold text-xl px-4 py-2">Norway</p>
-                    <p class="text-white text-base px-4">Paisajes increibles</p>
+        <div class="p-6" id="recomendados">
+            <p class="text-3xl font-semibold text-principal">Recomendados</p>
+            <div class="w-auto h-72 items-center mt-6 overflow-x-auto overscroll-x-contain flex space-x-6 overflow-y-hidden">
+                <div class="Card">
+                    <div class="w-full h-3/5 bg-cover bg-norway rounded-t-lg"></div>
+                    <div class="w-full h-2/5 bg-secondary rounded-b-lg">
+                        <p class="text-white font-bold text-xl px-4 py-2">Norway</p>
+                        <p class="text-white text-base px-4">Paisajes increibles</p>
+                    </div>
+                </div>
+
+                <div class="Card">
+                    <div class="w-full h-3/5 bg-cover bg-new_york rounded-t-lg"></div>
+                    <div class="w-full h-2/5 bg-white rounded-b-lg">
+                        <p class="text-terciary font-bold text-xl px-4 py-2">New York</p>
+                        <p class="text-terciary text-base px-4">La gran manzana</p>
+                    </div>
+                </div>
+
+                <div class="Card">
+                    <div class="w-full h-3/5 bg-cover bg-yosemite rounded-t-lg"></div>
+                    <div class="w-full h-2/5 bg-secondary rounded-b-lg">
+                        <p class="text-white font-bold text-xl px-4 py-2">Yosemite</p>
+                        <p class="text-white text-base px-4">A break from the world</p>
+                    </div>
+                </div>
+
+                <div class="Card">
+                    <div class="w-full h-3/5 bg-cover bg-seattle rounded-t-lg"></div>
+                    <div class="w-full h-2/5 bg-white rounded-b-lg">
+                        <p class="text-terciary font-bold text-xl px-4 py-2">Seatle</p>
+                        <p class="text-terciary text-base px-4">Big city</p>
+                    </div>
                 </div>
             </div>
         </div>

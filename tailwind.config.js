@@ -31,7 +31,7 @@ module.exports = {
       textColor:{
         'principal': '#CC2D4A',
 				'secondary': '#8FA206',
-				'tertiary': '#61AEC9',
+				'terciary': '#61AEC9',
       },
       fontFamily:{
         Montserrat:['Montserat','sans-serif']
@@ -39,6 +39,7 @@ module.exports = {
     },
   },
   variants:{
+    width:[ "responsive","hover","focus"],
     extend:{},
   },
   plugins: []
