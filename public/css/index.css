@@ -566,3 +566,12 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(97 174 201 / var(--tw-bg-opacity));
 }
+
+.font-Montserrat {
+  font-family: Montserat, sans-serif;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
