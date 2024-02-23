@@ -5,16 +5,19 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "tw:build":"tailwind -i ./src/css/index.css -o ./public/css/index.css",
+    "tw:build": "tailwind -i ./src/css/index.css -o ./public/css/index.css",
     "tw:dev": "npx tailwindcss -i ./src/css/index.css -o ./public/css/index.css --watch",
-    "tw:prod": "npx tailwindcss -i ./src/css/index.css -o ./public/css/index.css --minify"
+    "tw:prod": "npx tailwindcss -i ./src/css/index.css -o ./public/css/index.css --minify",
+    "deploy": "gh-pages -d public"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^10.4.17",
+    "gh-pages": "^6.1.1",
     "postcss": "^8.4.35",
     "tailwindcss": "^3.4.1"
-  }
+  },
+  "homepage": "https://jrodriguez-wm.github.io/tailwindcss/"
 }
