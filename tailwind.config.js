@@ -1,8 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  // purge:[],
   darkMode: 'class',
-  content: ['./public/index.html',],
+  content: ['./public/index.html','./public/**/*.html',],
   theme: {
     extend: {
       backgroundImage:{
@@ -37,10 +36,6 @@ module.exports = {
         Montserrat:['Montserat','sans-serif']
       }
     },
-  },
-  variants:{
-    width:[ "responsive","hover","focus"],
-    extend:{},
   },
   plugins: []
 }
